@@ -6,6 +6,10 @@ This repository provides the code for the paper titled **[ULPT: Prompt Tuning wi
   <br />
 </p>
 
+## 🚀Extra Experiments
+ULPT now supports Llama 3.2 Models, we have tested on GSM8K and MBPP datasets, please find it in [Llama_experiments](Llama_expriments)
+
+
 ## 1. Requirements and Installation
 ```bash 
 pip install torch numpy scipy sklearn transformers==4.37.2 peft==0.11.1 datasets==2.16.1 accelerate==0.33.0
@@ -15,10 +19,6 @@ pip install torch numpy scipy sklearn transformers==4.37.2 peft==0.11.1 datasets
 ```bash
 bash train.sh
 ```
-
-## 4. Extra Experiments
-ULPT now supports Llama 3.2 Models, we have tested on GSM8K and MBPP datasets, please find it in [Llama_experiments](Llama_expriments)
-
 
 ## Acknowledgement
 This repository is built upon the following repositories:
