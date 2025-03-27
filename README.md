@@ -16,6 +16,9 @@ pip install torch numpy scipy sklearn transformers==4.37.2 peft==0.11.1 datasets
 bash train.sh
 ```
 
+## 4. Extra Experiments
+ULPT now supports Llama 3.2 Models, we have tested on GSM8K and MBPP datasets, please find it in [Llama_experiments](Llama_experiments)
+
 
 ## Acknowledgement
 This repository is built upon the following repositories:
