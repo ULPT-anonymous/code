@@ -3,7 +3,7 @@
 ## Overview
 
 This repository contains code for experimenting with various fine-tuning and prompting strategies on LLaMA 3.2 models, with a focus on the ULPT method. It includes implementations and evaluation scripts for:
-1. **Few-Shot Prompting** – Standard in-context learning with handcrafted prompts.
+1. **Few-Shot Prompting** – Standard in-context learning with randomly sampled input-output demos.
 2. **LoRA-based Finetuning** – Includes vanilla LoRA, VeRA, and Fourier FT.
 3. **Prompt Tuning** – Optimization of soft prompts for downstream tasks.
 4. **ULPT** – Our method
