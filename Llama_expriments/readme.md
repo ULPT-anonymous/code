@@ -44,7 +44,7 @@ python few_shot_mbpp.py # for code generation
 ```
 
 ## Training and Inference
-We provide a script to train and evaluate the models on the GSM8K and MBPP tasks. The script trains the models for 3 epochs on GSM8K and 10 epochs on MBPP. The models are then evaluated using greedy decoding to ensure consistent answers. The learning rate is set to 1e-3 for ULPT, LoRA and VeRA and 1e-2 for PT and Fourier FT.
+We provide a script to train and evaluate the models on the GSM8K and MBPP tasks. The script trains the models for 3 epochs on GSM8K and 10 epochs on MBPP. The models are then evaluated using greedy decoding to ensure consistent answers. The learning rate is set to 1e-3 for LoRA and VeRA and 1e-2 for ULPT, PT and Fourier FT.
 
 ```bash
 cd lora_textgen
