@@ -6,8 +6,8 @@ This repository provides the code for the paper titled **[ULPT: Prompt Tuning wi
   <br />
 </p>
 
-## 🚀Extra Experiments
-ULPT now supports Llama 3.2 Models, we have tested on GSM8K and MBPP datasets, please find it in [Llama_experiments](Llama_expriments)
+## 🚀 Experiments on Reasoning Tasks
+ULPT supports Llama 3.2 Models, we have tested on GSM8K and MBPP datasets, please find it in [Llama_experiments](Llama_expriments)
 
 
 ## 1. Requirements and Installation
